@@ -38,7 +38,7 @@ By utilizing the interrupt-driven approach and PWM signals, the code allows for 
 Sure! Here's a text-based project report for the "Controlling the Speed and Direction of DC-Motor using PWM" project:
 
 --------------------------------------------------------------------------------------------
-# Project Report: Controlling the Speed and Direction of DC-Motor using PWM         
+** Project Report: Controlling the Speed and Direction of DC-Motor using PWM         
 --------------------------------------------------------------------------------------------
 
 Abstract:
