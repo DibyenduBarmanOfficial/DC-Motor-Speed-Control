@@ -1,5 +1,18 @@
 # DC-Motor-Speed-Control
-My Project in Microcontroller is to Speed and Direction Control of DC Motor Using Pulse Width Modulation.
+My Project in Microcontroller is to Speed and Direction Control a DC Motor Using Pulse Width Modulation.
+
+** The components used in the project are as follows:
+
+1. Nucleo F401RE: It is a development board based on the STM32 microcontroller.
+2. L2930: It is a motor driver IC used to control the DC motor.
+3. User button: It is an input button used to change the direction of the motor.
+4. External button: It is an input button used to control the speed of the motor.
+5. Onboard flash LED: It is an LED used for visual indication.
+6. One external LED: It is an additional LED used for any specific purpose.
+7. 220KOhm resistor: It is a resistor used in the circuit.
+8. Arm Keil Studio Cloud Used for code writing and project building 
+
+These components are essential for controlling the speed and direction of the DC motor using PWM.
 
 --------------------------------------------------------------------------------------------
 ** Code explanation: How it works to control the speed and direction of a DC motor using PWM
