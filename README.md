@@ -2,7 +2,7 @@
 My Project in Microcontroller is to Speed and Direction Control of DC Motor Using Pulse Width Modulation.
 
 --------------------------------------------------------------------------------------------
-# Code explanation:- how it works to control the speed and direction of a DC motor using PWM:
+** Code explanation:- how it works to control the speed and direction of a DC motor using PWM:
 --------------------------------------------------------------------------------------------
 
 1. Initialization:
