@@ -8,9 +8,9 @@
 
 PwmOut PWM_M(D9);  // PWM output for motor speed control
 PwmOut PWM_L(D3);  // PWM output for LED Brightness control
-DigitalOut Ma(D10);  // Direction control pin Ma
-DigitalOut Mb(D11);  // Direction control pin Mb
-DigitalOut flash(D13);  // Flash LED for indication
+DigitalOut Ma(D10);  // Direction control pin Motot Input-1
+DigitalOut Mb(D11);  // Direction control pin Motot Input-2
+DigitalOut flash(D13);  // Flash onboard LED for indication
 InterruptIn B_Dir(PC_13);  // Button to toggle motor direction
 InterruptIn B_Speed(D12, PullUp);  // Button to change motor speed
 
@@ -40,6 +40,6 @@ int main() {
 
     while (true) {
         flash = !flash;    // Toggle the flash LED pin
-        HAL_Delay(25);     // Delay for 25ms
+        thread_sleep_for(25);     // Delay for 25ms
     }
 }
