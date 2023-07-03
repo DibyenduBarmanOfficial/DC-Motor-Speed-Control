@@ -8,7 +8,7 @@ My Project in Microcontroller is to Speed and Direction Control a DC Motor Using
 3. User button: It is an input button used to change the direction of the motor.
 4. External button: It is an input button used to control the speed of the motor.
 5. Onboard flash LED: It is an LED used for visual indication.
-6. One external LED: It is an additional LED used for any specific purpose.
+6. One external LED: It is an additional LED used for the visual indication of motor speed.
 7. 220KOhm resistor: It is a resistor used in the circuit.
 8. Arm Keil Studio Cloud: It is used for code writing and project building.
 
@@ -38,7 +38,7 @@ These components are essential for controlling the speed and direction of the DC
 
 4. Control Loop:
    - The main loop of the program toggles the flash LED by toggling the flash pin using the ! (logical NOT) operator.
-   - A delay of 25ms (HAL_Delay) is introduced to control the LED blinking speed.
+   - A delay of 25ms (thread_sleep_for) is introduced to control the LED blinking speed.
 
 5. Operation:
    - When the program is executed, the motor starts with the initial direction set to forward.
@@ -53,7 +53,7 @@ By utilizing the interrupt-driven approach and PWM signals, the code allows for 
 --------------------------------------------------------------------------------------------
 
 Abstract:
-This project aims to control the speed and direction of a DC motor using Pulse Width Modulation (PWM) technique. The project utilizes the Nucleo F401RE microcontroller, L2930 motor driver, user button for direction change, external button for speed control, onboard flash LED, one external LED, and a 220KOhm resistor. By implementing PWM, the motor's speed can be varied, and its direction can be changed using the user button.
+This project aims to control the speed and direction of a DC motor using the Pulse Width Modulation (PWM) technique. The project utilizes the Nucleo F401RE microcontroller, L2930 motor driver, user button for direction change, an external button for speed control, onboard flash LED, one external LED, and a 220KOhm resistor. By implementing PWM, the motor's speed can be varied, and its direction can be changed using the user button.
 
 1. Introduction:
 The control of DC motors is a fundamental aspect of various electronic applications. This project focuses on implementing a PWM-based control system to regulate the speed and direction of a DC motor. The Nucleo F401RE microcontroller board is utilized to generate PWM signals and control the L2930 motor driver, which drives the DC motor. The user button is used to change the motor's direction, and an external button is used to adjust the motor's speed.
