@@ -10,7 +10,7 @@ My Project in Microcontroller is to Speed and Direction Control a DC Motor Using
 5. Onboard flash LED: It is an LED used for visual indication.
 6. One external LED: It is an additional LED used for any specific purpose.
 7. 220KOhm resistor: It is a resistor used in the circuit.
-8. Arm Keil Studio Cloud Used for code writing and project building 
+8. Arm Keil Studio Cloud: It is used for code writing and project building.
 
 These components are essential for controlling the speed and direction of the DC motor using PWM.
 
