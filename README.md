@@ -21,7 +21,7 @@ These components are essential for controlling the speed and direction of the DC
 1. Initialization:
    - The necessary libraries, including "mbed.h", are included at the beginning of the code.
    - Pin assignments and configurations are set using the defined variables and objects.
-   - The PWM_M and PWM_L objects are created to control the two PWM outputs for motor speed control.
+   - The PWM_M and PWM_L objects are created to control the two PWM outputs for motor speed control as well external LED brightness control.
    - The Ma and Mb objects are defined as DigitalOut for controlling the motor's direction.
    - The flash object is defined as DigitalOut for toggling the onboard flash LED.
    - The B_Dir and B_Speed objects are defined as InterruptIn for detecting button presses.
